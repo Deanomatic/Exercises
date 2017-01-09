@@ -1,0 +1,55 @@
+#main{
+	background-color: floralwhite;
+	text-align: center;
+	
+}
+
+.saban-bear {
+	background-color: white;
+	font-family: cursive; 
+	font-size: 14px;
+	color: pink;
+	line-height: 150%;
+	padding: inherit;
+	border-radius: 100px
+}
+
+.bama-best {
+	background-color: black;
+	font-family: sans-serif; 
+	font-size: 20px;
+	color: orange;
+	line-height: 100%;
+	padding: 20px;
+	border-radius: 20px	
+}
+
+.bama-culture {
+	background-color: grey;
+	font-family: monospace; 
+	font-size: 30px;
+	color: green;
+	line-height: 75%;
+	padding: 40px;
+	border-radius: 75px	
+}
+
+.mascot-story {
+	background-color: silver;
+	font-family: "Lucida Console", Monaco, monospace; 
+	font-size: 10px;
+	color: yellow;
+	line-height: 178%;
+	padding: 2px;
+	border-radius: 10px	
+}
+
+.bama-hate {
+	background-color: bisque;
+	font-family: serif; 
+	font-size: 40px;
+	color: saddlebrown;
+	line-height: 90%;
+	padding: initial;
+	border-radius: 120%	
+}

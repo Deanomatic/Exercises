@@ -1,0 +1,21 @@
+ul li {
+    display: inline;
+    list-style-type: none;
+    height: : 200px;
+    padding: 20px;
+    width: 200px;
+    font-size: 9pt;
+
+}
+ li a:hover {
+    border-top: 5px solid #004a80;
+    border-bottom: 5px solid #004a80;
+    font-weight:bold;
+    color: pink;
+    
+}
+
+
+
+
+

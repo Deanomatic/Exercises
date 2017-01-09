@@ -1,0 +1,55 @@
+header {
+	border-style: solid;
+	border-width: 1px;
+	border-color: firebrick;
+
+}
+header ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+a .disabled {
+	color: purple;
+}
+
+}
+
+.disabled {
+	color: grey;
+}
+
+.active {
+	color: yellow;
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+}
+
+.sib-blue {
+	background-color: blue 
+}
+
+.sib-red {
+	background-color: red
+}
+
+.g-kids {
+	border: solid;
+	border-width: 1px;
+	border-radius: 25%
+}
+
+.promo {
+	font-weight: bold;
+	color: green;
+}
+
+input {
+	font-size: 25px;
+}

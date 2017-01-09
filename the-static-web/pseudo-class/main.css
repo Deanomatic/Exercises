@@ -1,0 +1,17 @@
+ul li {
+	display: inline;
+}
+
+.inline {
+	border-style: solid;
+	border-width: 1px;
+	margin: 25px;
+}
+
+.n-child section{
+	border-style: dotted;
+}
+
+.n-child div {
+	border-style: dashed;
+}

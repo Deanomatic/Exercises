@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>ls
+
+	<body>
+	<link rel="stylesheet" type="text/css" href="main.css">
+		<fieldset>
+			<legend>Basic Info</legend>
+				<form action="send-email.php" method="post">
+				First Name:
+				<input type="text" name="firstname" size="25" maxlength="40">
+				<br><br>
+				Middle Initial:
+				<input type="text" name="MidInitial" size="3" maxlength="7">
+				<br><br>
+				Last Name:
+				<input type="text" name="LastName" size="25" maxlength="40">
+				<br><br>
+				Address: 
+				<input type="text" name="HomeAddress" size="25" maxlength="40">
+				<br><br>
+				Current Job:
+				<input type="text" name="Job" size="25" maxlength="40">
+				<br><br>
+				Employer:
+				<input type="text" name="Employer" size="25" maxlength="40">
+				<br><br>
+				Employer Address:
+				<input type="text" name="EmployerAddress" size="25" maxlength="40">
+				<br><br>
+				Email Address:
+				<input class="email" type="email" name="Email" size="25" maxlength="40">
+				<br><br>
+				Cell Phone number:
+				<input type="text" name="Phone" size="25" maxlength="40">
+				Linkedin profile:
+				<input type="text" name="Linkedin" size="25" maxlength="40">
+		</fieldset>
+		<fieldset>
+			<legend>Which loan are you applying for?</legend>
+			<input type="radio" name="LoanType">Realestate
+			<input type="radio" name="LoanType">Commercial
+			<input type="radio" name="LoanType">Personal
+			<input type="radio" name="LoanType">Mortgage
+		</fieldset>	
+		<br>
+		<fieldset>
+	      <legend>Amount of loan requested</legend>
+	      <label for="LoanAmount">How much do you need?</label>
+	      <input type="number" name="LoanAmount" step="2" min="$100" max="$7,000,000">
+	    </fieldset>
+	    <br>
+	    <fieldset>
+	    	<legend>Amount of time for the loan</legend>
+	    	<input type="radio" name="LoanLength">5 Years
+	    	<input type="radio" name="LoanLength">15 Years
+	    	<input type="radio" name="LaonLength">30 Years
+	    </fieldset>
+	    <fieldset>
+	    	<legend>Special Conditions</legend>
+	    	<input type="checkbox" name="Conditions" value="I have a down payment">I have a down payment
+	    	<input type="checkbox" name="Conditions" value="Out of state resident">Out-of-state resident
+	    	<input type="checkbox" name="Conditions" value="married">Married
+	    	<input type="checkbox" name="Conditions" value="Co-signed">Loan will be co-signed
+	    </fieldset>
+	    <fieldset>
+	    	<legend>Additional Comments: </legend>
+			<br>
+			<textarea name="Message" rows="4" cols="30"></textarea>
+		</fieldset>
+	</body>
+</html>

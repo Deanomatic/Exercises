@@ -1,0 +1,14 @@
+.card {
+	width: 30%;
+	border: 1px solid lightblue;
+	float: left;
+	margin: inherit;
+}
+.card header h2 {
+	border: 1px dotted lightgrey;
+	text-align: center; 
+}
+.card-image {
+	width: 50%;
+	margin-left: 25%
+}
