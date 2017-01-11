@@ -4,7 +4,7 @@ ul li {
     height: : 200px;
     padding: 20px;
     width: 200px;
-    font-size: 9pt;
+    font-size: 10pt;
 
 }
  li a:hover {
@@ -12,8 +12,14 @@ ul li {
     border-bottom: 5px solid #004a80;
     font-weight:bold;
     color: pink;
-    
 }
+
+li a:active {
+    font-size:15pt;
+
+
+}
+
 
 
 
