@@ -5,6 +5,7 @@ ul li {
     padding: 20px;
     width: 200px;
     font-size: 10pt;
+    background-color: red;
 
 }
  li a:hover {
@@ -15,7 +16,7 @@ ul li {
 }
 
 li a:active {
-    font-size:15pt;
+    font-size:30pt;
 
 
 }
