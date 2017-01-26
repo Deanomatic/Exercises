@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>  
+<head>
+	<title>Celsius or Fahrenheit?</title>
+</head>
+<body>	<!-- This form tag was making my page go blank. i needed to make it return false. -->
+	<form action="demo_form.asp" method="get" onsubmit="return false;">
+		What's the tempurature?<input type="number" id="tempInput">
+
+		<input type="reset" name="clear"><br>
+		<input id="c" type="radio" name="C-F">Celsius<br>
+		<input id="f" type="radio" name="C-F">Fahrenheit<br>
+		<section>
+			<button id="converter">Convert your temperature here!</button><br>
+			<p id="finalTemp"></p>
+		</section>
+	</form>
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>
