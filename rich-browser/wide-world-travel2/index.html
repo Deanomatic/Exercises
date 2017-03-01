@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>World Traveler</title>
+<!-- 	<link rel="stylesheet" type="text/css" href="lib/node_modules/bootstrap/dist/css/bootstrap.min.css">
+ -->
+</head>
+<body ng-app="guidesGalore">
+	<header>
+		<h1>Where To Go and What to Do??</h1>		
+	</header>
+ <!-- Thsi means travelCtrl specifically controls this section -->
+  <div ng-view></div>
+     
+
+
+	
+
+<!-- The order of the scripts DO MATTER -->
+       <!-- Angular must be found in the node modulse before we can use anguar. This must be first. -->
+	<script type="text/javascript" src="lib/node_modules/angular/angular.min.js"></script>
+	<script type="text/javascript" src="lib/node_modules/angular-route/angular-route.min.js"></script>
+<!-- App need s to be next because everything goes through it in most cases -->
+  <script type="text/javascript" src="app/app.js"></script>  
+  <script type="text/javascript" src="app/factories/bookFactory.js"></script>
+  <script type="text/javascript" src="app/controllers/travelCtrl.js"></script>
+
+
+</body>
+</html>
