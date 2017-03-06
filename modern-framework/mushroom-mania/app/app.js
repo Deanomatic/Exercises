@@ -1,5 +1,6 @@
 'use strict';
-
+// always declare app variable for a new angular module. 
+// And in app.js control the route and the views
 var app = angular.module("mushroomTime", ["ngRoute"]);
 
 app.config(function($routeProvider) { 
@@ -10,7 +11,7 @@ app.config(function($routeProvider) {
   })
   .otherwise("/");
 });
-
+//app.run is authintecating thru FBCreds using firebase.
 app.run(($location, FBCreds) => {
     let creds = FBCreds;
     let authConfig = {

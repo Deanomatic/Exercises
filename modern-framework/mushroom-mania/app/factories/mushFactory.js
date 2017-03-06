@@ -3,7 +3,7 @@
 app.factory('mushFactory',function(FBCreds, $q, $http) {
 
   let getJSON = () => {
-    console.log("am i alive??");
+    //console.log("am i alive??");
     return $q((resolve, reject) => {
       $http.get(`${FBCreds.databaseURL}/mushrooms.json`)
       .then((mushroomObject) => {
@@ -16,7 +16,7 @@ app.factory('mushFactory',function(FBCreds, $q, $http) {
         newMush.name = fungi;
         newMush.edible = mushroomCollection[i][fungi].edible;
         newMush.description = mushroomCollection[i][fungi].description;
-        console.log("newMush", newMush);
+        //console.log("newMush", newMush);
         mushroomArray.push(newMush);
 
       }
@@ -30,16 +30,4 @@ app.factory('mushFactory',function(FBCreds, $q, $http) {
 
   return {getJSON};
 });
-        // Object.keys(mushroomCollection).forEach((key) => {
-        //   mushroomArray.push(mushroomCollection[key]);
-        // });
-
-
-          //  for (var i = 0; i < shrooms.length; i++) {
-          //   var newObj = {};
-          //   var fluffy = String(Object.keys(shrooms[i]));
-          //   newObj.name = fluffy;
-          //   newObj.edible = shrooms[i][fluffy].edible;
-          //   newObj.description = shrooms[i][fluffy].description;
-          //   arrayOf.push(newObj);
-          // }
+        
